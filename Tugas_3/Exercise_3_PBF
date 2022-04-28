@@ -6,23 +6,18 @@ Soal:
 1. Apakah modul solver.py dapat digunakan untuk
 menyelesaikan persamaan differensial orde 2
 selain kasus non linear pendulum? Jelaskan
-mengapa!
+mengapa! Yaa dapat, karena modul solver.py dapat menyelesaikan persamaan linier maupun non linier.
 
-2. Implementasikan solver tersebut dengan cara
-membuat file solver.py
+2. Implementasikan solver tersebut dengan cara membuat file solver.py
 
-3. Untuk menyelesaikan persamaan dengan
-solver.py, bentuk fungsi harus diubah menjadi:
-dt^2a/dt^2 = (-g/L) * (sin(a))
-Definisikan fungsi Func sebagai fungsi yang
-me return nilai -g/L * sin(a)
+3. Untuk menyelesaikan persamaan dengan solver.py, bentuk fungsi harus diubah menjadi:
+d^2a/dt^2 = (-g/L) * (sin(a))
+Definisikan fungsi Func sebagai fungsi yang me return nilai -g/L * sin(a)
 (didalam ppt tugas 3)
 
-4. Menggunakan Parameter Parameter yang ada dalam tabel diatas,
-buatlah program yang menggunakan solver.py untuk menemukan
-solusi persamaan diferensial non linear tersebut!
-Hint( Solusi Akhir berupa plot )
+4. Menggunakan Parameter Parameter yang ada dalam tabel diatas, buatlah program yang menggunakan solver.py 
+untuk menemukan solusi persamaan diferensial non linear tersebut! Hint( Solusi Akhir berupa plot )
 d^2y/dx^2 = -y - dy/dx +sin^2 (x)
 
 5. Perhatikan Persamaan Diferensial Diatas! Buatlah program untuk menyelesaikan PD tersebut dengan
-menggunakan solver.py sebagai modul dengan parameter berikut!(didalam ppt tugas 3)
+menggunakan solver.py sebagai modul dengan parameter berikut! (didalam ppt tugas 3)
